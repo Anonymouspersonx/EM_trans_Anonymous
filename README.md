@@ -4,4 +4,5 @@
 - Code for model evaluation is available at [Link](https://github.com/Anonymouspersonx/EM_trans_Anonymous/blob/main/eva_demo.ipynb)
 
 
-### The complete code will be available soon
+### The complete code will be available soon when paper is published
+
