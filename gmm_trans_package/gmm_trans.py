@@ -37,9 +37,9 @@ def load_model(
     print('Number of parameters of encoder:', _model_scale)
 
     # Download the pre-trained model state from huggingface hub
-    encoder_path = hf_hub_download(repo_id="Weijie1996/gmms_transformer_models", filename=_encoder)
-    path_para = hf_hub_download(repo_id="Weijie1996/gmms_transformer_models", filename=_para)
-    path_token = hf_hub_download(repo_id="Weijie1996/gmms_transformer_models", filename=_token)
+    encoder_path = hf_hub_download(repo_id="Anonymouspersonx/gmms_transformer_models", filename=_encoder)
+    path_para = hf_hub_download(repo_id="Anonymouspersonx/gmms_transformer_models", filename=_para)
+    path_token = hf_hub_download(repo_id="Anonymouspersonx/gmms_transformer_models", filename=_token)
     
     # Load the pre-trained model state
     encoder.load_state_dict(torch.load(encoder_path, map_location=device))
@@ -50,7 +50,7 @@ def load_model(
     return encoder, state_dict_para, state_dict_token
 
 def load_valdata_example():
-    val_data_path = hf_hub_download(repo_id="Weijie1996/gmms_transformer_models", filename='val_data_example.pkl')
+    val_data_path = hf_hub_download(repo_id="Anonymouspersonx/gmms_transformer_models", filename='val_data_example.pkl')
     batch_size = 64
     split_ratio = (0, 0, 1)
     dataloader = dl.Dataloader_nolabel(val_data_path, batch_size, split_ratio)
