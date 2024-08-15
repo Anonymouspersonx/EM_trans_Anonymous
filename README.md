@@ -49,7 +49,8 @@ encoder, para_emb, token_emb = pipeline.from_pretrained(n_components=6, resoluti
 #### Inference with Real Electricity Consumption Profile (ECP) Data
 Part of the validation dataset is provided for inference.
 ```bash
-num_of_shot = 5
+feel free to adjust the num_of_shot to test the ECP modeling
+num_of_shot = 5 # range (1, 25)
 dataloader = load_valdata_example()
 _val_data = dataloader.load_vali_data(size=1)
 gmm_parameters, t_samples, _ = pipeline.inference(encoder, para_emb, token_emb, _val_data, num_of_shot)
