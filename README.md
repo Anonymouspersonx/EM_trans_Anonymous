@@ -5,10 +5,10 @@
 </p>
 
 
-This is the repository for **reviewing** the paper *An Efficient and Explainable Transformer-Based Few-Shot Learning for Modeling Electricity Consumption Profiles Across Thousands of Domains* summitted in AAAI 2025.
+This is the repository for **reviewing** the paper *An Efficient and Explainable Transformer-Based Few-Shot Learning for Modeling Electricity Consumption Profiles Across Thousands of Domains* submitted in AAAI 2025.
 
 - A Technical Appendix as a complementary resource for the main paper is available [here](materials/Technical_Appendix.pdf).
-- You can use our pre-trained model for inference on time series data by following the instructions below or in [example](example.py).
+- You can use our pre-trained model for inference on time series data by **following the instructions below** or in [example](example.py).
 - A model evaluation example is provided in [evaluation](eva_demo.ipynb)
 - A meta-data example is available in [csv](data_example.csv) more data is available in [huggingface](https://huggingface.co/Anonymouspersonx/gmms_transformer_models/tree/main)
 - The code for training will be available soon.
