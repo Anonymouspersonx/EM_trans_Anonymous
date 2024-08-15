@@ -26,8 +26,8 @@ conda activate gmm_trans
 #### Installing Package
 Installing our package by running the following command:
 
-```bash
-pip install git+https://github.com/xiaweijie1996/TransformerEM-GMM.git
+```bash 
+pip install git+https://github.com/Anonymouspersonx/TransformerEM-GMM.git
 
 ```
 #### Import Necessary Packages
